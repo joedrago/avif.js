@@ -1,0 +1,19 @@
+{
+  "name": "avif.js",
+  "version": "0.0.1",
+  "description": "AVIF Container Manipulation for JS",
+  "bin": {
+    "avifjs": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "cake build"
+  },
+  "main": "dist/avif.js",
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "coffeeify": "^3.0.1",
+    "coffeescript": "^2.5.1",
+    "minimist": "^1.2.5",
+    "uglifyify": "^5.0.2"
+  }
+}
